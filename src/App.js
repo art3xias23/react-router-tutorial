@@ -1,10 +1,12 @@
-import { Routes, Route, Link, NavLink } from "react-router-dom";
+import { Routes, Route, Link, NavLink, useLocation } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import {BookRoutes} from './BookRoutes'
 import './App.css'
 
 function App() {
+  const location = useLocation();
+  console.log(location);
   //Using JS to define routes instead of JSX
 
   // let element = useRoutes([

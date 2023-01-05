@@ -5,9 +5,9 @@ export function NotFound() {
   const navigate = useNavigate();
   useEffect(() => {
     setTimeout(() => {
-      navigate("/", {});
+      navigate("/", {state: "Not Found State Object"});
       //navigate(-1) Moves to the previous page
-      //navigate(-1) Moved back 2 pages 
+      //navigate(-2) Moved back 2 pages 
     }, 2000);
   });
   return (
