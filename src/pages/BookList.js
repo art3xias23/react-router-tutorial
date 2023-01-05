@@ -1,6 +1,9 @@
+import {BookLayout} from '../BookLayout'
 export function BookList()
 {
     return(
-        <h1>BookList</h1>
+        <div>
+            <h1>BookList</h1>
+        </div>
     )
 }
