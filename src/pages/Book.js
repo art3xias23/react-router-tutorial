@@ -4,6 +4,6 @@ export function Book() {
     const {id} = useParams();
     const obj = useOutletContext();
     return (
-        <h1>Book {id} ContextValue = {obj.val}</h1>
+        <h1>Book {id} {obj.val}</h1>
     )
 }
